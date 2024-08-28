@@ -1,0 +1,63 @@
+{
+  "cmd": {
+    "virtex": "duar"
+  },
+  "apikey": {
+    "padil": "API-KEY",
+    "lolhum": "API-KEY",
+    "openai": "APPI-KEY"
+  },
+  "prefix": "!",
+  "master": [
+    "", // your number
+  ],
+  "userblock": [],
+  "simi": {
+    "status": false
+  },
+  "chatgpt": {
+    "status": false
+  },
+  "nsfw": {
+    "status": true
+  },
+  "autoDownload": {
+    "status": true
+  },
+  "Modepublic": {
+    "status": true
+  },
+  "pmAutoRead": {
+    "status": false
+  },
+  "gAutoRead": {
+    "status": false
+  },
+  "callblock": {
+    "status": false
+  },
+  "responder": {
+    "tag": {
+      "status": false,
+      "GROUP": [],
+      "message": {}
+    },
+    "pm": {
+      "status": false,
+      "message": "Hai @! \n\nSaya mungkin lagi ada kesibukan.\nmohon tinggalkan pesan disini dan dia akan segera kembali online!.\n-\nIm busy right now\nplease leave a message here and he will reply right away!"
+    },
+    "welcome": {
+      "status": true,
+      "GROUP": [],
+      "message": {}
+    },
+    "leave": {
+      "status": false,
+      "GROUP": [],
+      "message": {}
+    },
+    "groupchange": {
+      "status": false
+    }
+  }
+}
