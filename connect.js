@@ -1,3 +1,10 @@
+/*
+Bot WhatsApp Public
+Library By WhatsApp-Web.js
+Build By :
+    -IGoyyy
+    -AgungNur.y
+**/
 const qrcode = require('qrcode-terminal');
 const moment = require("moment-timezone");
 const util = require('util');
