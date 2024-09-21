@@ -51,7 +51,7 @@ v20.0.0
 ```
 
 
-#### puppeteer
+#### Puppeteer
 ```
 sudo npm install -g puppeteer
 ```
@@ -62,7 +62,17 @@ sudo apt-get install chromium-browser
 sudo apt-get install libx11-xcb1 libxcomposite1 libasound2 libatk1.0-0 libatk-bridge2.0-0 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 
 ```
 
+## Supporting the project
+
+You can support the maintainer of this project through the links below
+
+- [Support via PayPal][support-payPal]
+- [Donate via Saweria][support-saweria]
+
+
 [Wwebjs.dev]: https://wwebjs.dev
 [WhatsApp-Web.js]: https://github.com/pedroslopez
 [nodejs]: https://nodejs.org/en/download/
 [npm]: https://npmjs.org/package/whatsapp-web.js
+[support-payPal]: https://www.paypal.me/eehhgii
+[support-saweria]: https://saweria.co/excellentstoree
