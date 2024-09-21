@@ -180,43 +180,7 @@ async function handleCmd(client, msg) {
                         etb.sendMessage(receiver, attachmentData, { caption: 'Here\'s your requested media.' });
                     }
                 }
-            } if (cmd.startsWith("spam:")) {
-                if (!isMaster) return etb.sendMessage(receiver, "Command For Owner only");
-                try {
-                    let sep = text.split(" ")
-                    let rep = text.replace(sep[0]+" ","")
-                    let no = rep.split("|")[0]+"@c.us"
-                    let num = rep.split("|")[1]
-                    let nama = rep.split("|")[2]
-                    for (let i = 0;i <num; i++){
-                        let gc = await etb.createGroup(nama,[no])
-                        let group = await etb.getChatById(gc.gid._serialized)
-                        group.leave()
-                    }
-                    let ret = `Success spam @${no} ${num} group`;
-                    await chat.sendMessage(ret, {quotedMessageId:_id._serialized, mentions: [user]});
-                } catch(error) {
-                    etb.sendMessage(receiver, error, {quotedMessageId:_id._serialized})
-                }
-            } if (cmd.startsWith("spamgroup")) {
-                if (!isMaster) return etb.sendMessage(receiver, "Command For Owner only");
-                try {
-                    const user = msg.mentionedIds[0]
-                    let sep = text.split(" ")
-                    let rep = text.replace(sep[0]+" ","")
-                    let num = rep.split("|")[1]
-                    let nama = rep.split("|")[2]
-                    for (let i = 0;i <num; i++){
-                        let gc = await etb.createGroup(nama,[user])
-                        let group = await etb.getChatById(gc.gid._serialized)
-                        group.leave()
-                    }
-                    let ret = `Success spam @${user.split('@')[0]} ${num} group`;
-                    await chat.sendMessage(ret, {quotedMessageId:_id._serialized, mentions: [user]});
-                } catch(error) {
-                    etb.sendMessage(receiver, error, {quotedMessageId:_id._serialized})
-                }
-            } if (cmd.startsWith("autodownload")){
+	    } if (cmd.startsWith("autodownload")){
                 if (!isMaster) return etb.sendMessage(receiver, "Command For Owner only");
                 const sep = text.split(' ')
                 const xtext = text.replace(sep[0] + " ", "")
