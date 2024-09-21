@@ -35,10 +35,17 @@ Just get the latest LTS from the [official node website][nodejs].
 
 #### NodeJs 20
 ```powershell
-$ sudo apt update
-$ sudo apt upgrade
-$ sudo apt install -y curl
+sudo apt update
+sudo apt upgrade
+sudo apt install -y curl
 ```
+```powershell
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+```
+```zsh
+sudo apt install -y nodejs
+```
+
 
 #### puppeteer
 ```powershell
