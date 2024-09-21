@@ -18,5 +18,9 @@
 I created this source code using a library from Pedroslopez's GitHub, and using a library from wwebjs.dev, use it properly and don't sell it.
 
 ## Links
+* [Wwebjs.dev][Wwebjs.dev]
+* [WhatsApp-Web.js][WhatsApp-Web.js]
+
+
 [Wwebjs.dev]: https://wwebjs.dev
 [WhatsApp-Web.js]: https://github.com/pedroslopez
