@@ -11,3 +11,7 @@
 	</p>
     <br />
 </div>
+
+## About
+**A WhatsApp API client that connects through the WhatsApp Web browser app**
+I created this source code using a library from Pedroslopez's GitHub, and using a library from wwebjs.dev
