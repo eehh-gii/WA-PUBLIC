@@ -15,4 +15,8 @@
 ## About
 **A WhatsApp API client that connects through the WhatsApp Web browser app**
 
-I created this source code using a library from Pedroslopez's GitHub, and using a library from wwebjs.dev
+I created this source code using a library from Pedroslopez's GitHub, and using a library from wwebjs.dev, use it properly and don't sell it.
+
+## Links
+[Wwebjs.dev]: https://wwebjs.dev
+[WhatsApp-Web.js]: https://github.com/pedroslopez
