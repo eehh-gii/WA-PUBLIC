@@ -42,8 +42,12 @@ sudo apt install -y curl
 ```powershell
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 ```
-```zsh
+```powershell
 sudo apt install -y nodejs
+```
+```powershell
+node --version
+v20.0.0
 ```
 
 
