@@ -20,7 +20,38 @@ I created this source code using a library from Pedroslopez's GitHub, and using 
 ## Links
 * [Wwebjs.dev][Wwebjs.dev]
 * [WhatsApp-Web.js][WhatsApp-Web.js]
+* [NPM][npm]
 
+## Installation
+The module is now available on npm! `npm i whatsapp-web.js`
+
+> [!NOTE]
+> **Node ``v18+`` is required.**
+
+### Windows
+
+#### Manual
+Just get the latest LTS from the [official node website][nodejs].
+
+#### NodeJs 20
+```powershell
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt install -y curl
+```
+
+#### puppeteer
+```powershell
+apt update -y && apt upgrade -y
+apt install -y npm
+apt install -y libx11-xcb1 libxcomposite1 libxcursor1 libxdamage1 libxi-dev libxtst-dev libnss3 libcups2 libxss1 libxrandr2 libasound2 libatk1.0-0 libatk-bridge2.0-0 libpangocairo-1.0-0 libgtk-3-0 libgbm1
+npm install -g n
+n lts
+hash -r
+npm install puppeteer
+```
 
 [Wwebjs.dev]: https://wwebjs.dev
 [WhatsApp-Web.js]: https://github.com/pedroslopez
+[nodejs]: https://nodejs.org/en/download/
+[npm]: https://npmjs.org/package/whatsapp-web.js
