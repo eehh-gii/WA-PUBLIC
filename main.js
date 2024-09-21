@@ -138,7 +138,7 @@ client.on('group_admin_changed', (notification) => {
 
 client.on('call', async (call) => {
     const fs = require("fs")
-    const setting = JSON.parse(fs.readFileSync('./settings.json'))
+    const setting = JSON.parse(fs.readFileSync('./setting.json'))
 // Change to false if you don't want to reject incoming calls
     let rejectCalls = setting.callblock.status;
     console.log('Call received, rejecting. GOTO Line 261 to disable', call);
