@@ -34,25 +34,25 @@ The module is now available on npm! `npm i whatsapp-web.js`
 Just get the latest LTS from the [official node website][nodejs].
 
 #### NodeJs 20
-```powershell
+```
 sudo apt update
 sudo apt upgrade
 sudo apt install -y curl
 ```
-```powershell
+```
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 ```
-```powershell
+```
 sudo apt install -y nodejs
 ```
-```powershell
+```
 node --version
 v20.0.0
 ```
 
 
 #### puppeteer
-```powershell
+```
 sudo npm install -g puppeteer
 ```
 ```
