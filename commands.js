@@ -12,7 +12,7 @@ const speed = require('performance-now');
 const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
-const setting = JSON.parse(fs.readFileSync('./settings.json'))
+const setting = JSON.parse(fs.readFileSync('./setting.json'))
 const { exec, spawn, execSync } = require("child_process");
 const { 
     Base,
