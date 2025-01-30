@@ -53,7 +53,7 @@ v20.0.0
 
 #### Puppeteer
 ```
-sudo npm install -g puppeteer
+npm install -g puppeteer
 ```
 ```
 sudo apt-get install chromium-browser
